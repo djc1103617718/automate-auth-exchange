@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'iconfont';
+  src: url("//at.alicdn.com/t/font_1475037521_947064.eot");
+  /* IE9*/
+  src: url("//at.alicdn.com/t/font_1475037521_947064.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1475037521_947064.woff") format("woff"), url("//at.alicdn.com/t/font_1475037521_947064.ttf") format("truetype"), url("//at.alicdn.com/t/font_1475037521_947064.svg#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+i.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #d2cfcf;
+}
+
+body {
+  background: #eaf1f4 url("../image/back.png") center 0 no-repeat;
+}
+
+.login-box,
+.register-box {
+  width: 360px;
+  margin: 15% auto;
+}
+
+/*登录 注册标题*/
+.login-box-msg {
+  font-size: 20px;
+  font-weight: 600;
+  color: #616161;
+}
+
+.login-box-body,
+.register-box-body {
+  background: #fff;
+  padding: 20px;
+  border-top: 0;
+  color: #666;
+}
+
+.login-box-msg,
+.register-box-msg {
+  margin: 0;
+  text-align: center;
+  padding: 0 20px 20px;
+}
+
+.delete_padding {
+  padding-right: 0 !important;
+}
+
+.delete_padding_yzm {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.forget_password {
+  text-align: right !important;
+}
+
+.delete_margin_bottom {
+  margin-bottom: 0 !important;
+}
+
+.btn_click {
+  margin-top: 55px !important;
+}
+
+.form-group .form-control-feedback {
+  left: 0 !important;
+  border-right: 1px solid #e1e1e1;
+}
+.form-group .form-control_padding {
+  padding-left: 45px !important;
+}
+
+.yzm_value {
+  display: inline-block;
+  padding: 1px 12px;
+  margin-bottom: 0;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.delete_margin_top {
+  margin-top: 0 !important;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #d7d7d7 !important;
+  font-size: 14px;
+}
+
+/*记住密码*/
+.row {
+  font-size: 12px !important;
+}
+.row .form-group input[type=checkbox] {
+  -webkit-appearance: none;
+  border: none;
+  width: 16px;
+  height: 16px;
+  margin: 0 0;
+  cursor: pointer;
+  outline: none;
+  vertical-align: middle;
+  background: #fff url(../image/icon_check.png) top center no-repeat;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row .form-group input[type=checkbox]:checked {
+  background-image: url("../image/icon_cur_checked.png");
+}
+.row .form-group label {
+  cursor: pointer;
+  margin-left: 4px !important;
+}
+
+/*字体大小*/
+.f14 {
+  font-size: 14px;
+}
